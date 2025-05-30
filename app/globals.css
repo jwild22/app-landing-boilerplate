@@ -1,0 +1,82 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+@layer base {
+  :root {
+    --background: 36 33% 97%;
+    --foreground: 30 9% 15%;
+    --card: 36 33% 99%;
+    --card-foreground: 30 9% 15%;
+    --popover: 36 33% 99%;
+    --popover-foreground: 30 9% 15%;
+    --primary: 28 54% 33%;
+    --primary-foreground: 36 33% 97%;
+    --secondary: 32 30% 90%;
+    --secondary-foreground: 28 54% 33%;
+    --muted: 32 30% 94%;
+    --muted-foreground: 30 9% 45%;
+    --accent: 20 60% 85%;
+    --accent-foreground: 28 54% 33%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 36 33% 97%;
+    --border: 30 9% 85%;
+    --input: 30 9% 85%;
+    --ring: 28 54% 33%;
+    --chart-1: 28 54% 33%;
+    --chart-2: 15 70% 40%;
+    --chart-3: 42 60% 45%;
+    --chart-4: 5 65% 40%;
+    --chart-5: 35 65% 50%;
+    --radius: 0.5rem;
+  }
+  .dark {
+    --background: 30 9% 10%;
+    --foreground: 36 33% 97%;
+    --card: 30 9% 12%;
+    --card-foreground: 36 33% 97%;
+    --popover: 30 9% 12%;
+    --popover-foreground: 36 33% 97%;
+    --primary: 32 30% 60%;
+    --primary-foreground: 30 9% 10%;
+    --secondary: 28 10% 20%;
+    --secondary-foreground: 36 33% 97%;
+    --muted: 28 10% 20%;
+    --muted-foreground: 36 33% 70%;
+    --accent: 20 30% 25%;
+    --accent-foreground: 36 33% 97%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 36 33% 97%;
+    --border: 28 10% 25%;
+    --input: 28 10% 25%;
+    --ring: 32 30% 60%;
+    --chart-1: 32 30% 60%;
+    --chart-2: 15 50% 50%;
+    --chart-3: 42 40% 55%;
+    --chart-4: 5 45% 50%;
+    --chart-5: 35 45% 60%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
