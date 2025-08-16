@@ -3,29 +3,29 @@ import { Upload, Brain, Play } from "lucide-react"
 
 export function HowItWorksSection() {
   return (
-    <section id="how-it-works" className="py-16 md:py-24 bg-gradient-to-b from-background to-orange-50/30">
+    <section id="how-it-works" className="py-12 sm:py-16 md:py-24 bg-gradient-to-b from-background to-orange-50/30">
       <div className="container px-4 md:px-6">
         <div className="flex flex-col items-center justify-center space-y-4 text-center">
-          <div className="space-y-2">
+          <div className="space-y-3 sm:space-y-4">
             <div className="inline-block rounded-lg bg-orange-100 px-3 py-1 text-sm text-orange-600 font-medium">How It Works</div>
-            <h2 className="text-3xl font-bold tracking-tighter md:text-4xl/tight text-gray-900">
+            <h2 className="text-2xl sm:text-3xl font-bold tracking-tighter md:text-4xl/tight text-gray-900">
               Create study quizzes in three simple steps
             </h2>
-            <p className="max-w-[900px] text-gray-600 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+            <p className="max-w-[900px] text-gray-600 text-sm sm:text-base md:text-lg lg:text-base xl:text-xl px-4 sm:px-0">
               Transform any study material into interactive quizzes with our intelligent AI system.
             </p>
           </div>
         </div>
-        <div className="mx-auto grid max-w-5xl gap-6 py-12 lg:grid-cols-3">
-          <div className="flex flex-col items-center space-y-4 rounded-lg border border-orange-200 bg-white p-6 text-center shadow-sm">
-            <div className="flex h-16 w-16 items-center justify-center rounded-full bg-orange-100">
-              <Upload className="h-8 w-8 text-orange-500" />
+        <div className="mx-auto grid max-w-5xl gap-6 sm:gap-8 py-8 sm:py-12 md:grid-cols-2 lg:grid-cols-3">
+          <div className="flex flex-col items-center space-y-3 sm:space-y-4 rounded-lg border border-orange-200 bg-white p-4 sm:p-6 text-center shadow-sm">
+            <div className="flex h-12 w-12 sm:h-16 sm:w-16 items-center justify-center rounded-full bg-orange-100">
+              <Upload className="h-6 w-6 sm:h-8 sm:w-8 text-orange-500" />
             </div>
-            <h3 className="text-xl font-bold text-gray-900">1. Upload Your Material</h3>
-            <p className="text-gray-600">
+            <h3 className="text-lg sm:text-xl font-bold text-gray-900">1. Upload Your Material</h3>
+            <p className="text-gray-600 text-sm sm:text-base">
               Upload PDFs, images, or text documents. Our AI supports textbooks, lecture notes, research papers, and handwritten notes.
             </p>
-            <div className="rounded-xl border border-orange-200 bg-white overflow-hidden shadow-lg">
+            <div className="rounded-xl border border-orange-200 bg-white overflow-hidden shadow-lg max-w-[250px] sm:max-w-[300px]">
               <Image
                 src="/1.png"
                 alt="Upload study materials to Exam Master"
@@ -35,15 +35,15 @@ export function HowItWorksSection() {
               />
             </div>
           </div>
-          <div className="flex flex-col items-center space-y-4 rounded-lg border border-orange-200 bg-white p-6 text-center shadow-sm">
-            <div className="flex h-16 w-16 items-center justify-center rounded-full bg-orange-100">
-              <Brain className="h-8 w-8 text-orange-500" />
+          <div className="flex flex-col items-center space-y-3 sm:space-y-4 rounded-lg border border-orange-200 bg-white p-4 sm:p-6 text-center shadow-sm">
+            <div className="flex h-12 w-12 sm:h-16 sm:w-16 items-center justify-center rounded-full bg-orange-100">
+              <Brain className="h-6 w-6 sm:h-8 sm:w-8 text-orange-500" />
             </div>
-            <h3 className="text-xl font-bold text-gray-900">2. AI Generates Quizzes</h3>
-            <p className="text-gray-600">
+            <h3 className="text-lg sm:text-xl font-bold text-gray-900">2. AI Generates Quizzes</h3>
+            <p className="text-gray-600 text-sm sm:text-base">
               Our advanced AI analyzes your content and creates personalized multiple-choice and single-choice questions targeting key concepts.
             </p>
-            <div className="rounded-xl border border-orange-200 bg-white overflow-hidden shadow-lg">
+            <div className="rounded-xl border border-orange-200 bg-white overflow-hidden shadow-lg max-w-[250px] sm:max-w-[300px]">
               <Image
                 src="/2.png"
                 alt="AI analyzing and generating quiz questions"
@@ -53,15 +53,15 @@ export function HowItWorksSection() {
               />
             </div>
           </div>
-          <div className="flex flex-col items-center space-y-4 rounded-lg border border-orange-200 bg-white p-6 text-center shadow-sm">
-            <div className="flex h-16 w-16 items-center justify-center rounded-full bg-orange-100">
-              <Play className="h-8 w-8 text-orange-500" />
+          <div className="flex flex-col items-center space-y-3 sm:space-y-4 rounded-lg border border-orange-200 bg-white p-4 sm:p-6 text-center shadow-sm">
+            <div className="flex h-12 w-12 sm:h-16 sm:w-16 items-center justify-center rounded-full bg-orange-100">
+              <Play className="h-6 w-6 sm:h-8 sm:w-8 text-orange-500" />
             </div>
-            <h3 className="text-xl font-bold text-gray-900">3. Study & Track Progress</h3>
-            <p className="text-gray-600">
+            <h3 className="text-lg sm:text-xl font-bold text-gray-900">3. Study & Track Progress</h3>
+            <p className="text-gray-600 text-sm sm:text-base">
               Take quizzes, use flashcards, track your progress, and maintain study streaks. Earn XP and level up as you master your subjects.
             </p>
-            <div className="rounded-xl border border-orange-200 bg-white overflow-hidden shadow-lg">
+            <div className="rounded-xl border border-orange-200 bg-white overflow-hidden shadow-lg max-w-[250px] sm:max-w-[300px]">
               <Image
                 src="/3.png"
                 alt="Study with quizzes and track your progress"
