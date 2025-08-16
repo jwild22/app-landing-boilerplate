@@ -30,9 +30,7 @@ export function SiteHeader() {
           <Link href="#how-it-works" className="text-sm font-medium transition-colors hover:text-orange-500">
             How It Works
           </Link>
-          <Link href="#pricing" className="text-sm font-medium transition-colors hover:text-orange-500">
-            Pricing
-          </Link>
+
           <Link href="#faq" className="text-sm font-medium transition-colors hover:text-orange-500">
             FAQ
           </Link>

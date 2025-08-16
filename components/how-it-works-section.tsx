@@ -27,7 +27,7 @@ export function HowItWorksSection() {
             </p>
             <div className="rounded-xl border border-orange-200 bg-white overflow-hidden shadow-lg">
               <Image
-                src="/taking-photo.png"
+                src="/1.png"
                 alt="Upload study materials to Exam Master"
                 width={300}
                 height={600}
@@ -45,7 +45,7 @@ export function HowItWorksSection() {
             </p>
             <div className="rounded-xl border border-orange-200 bg-white overflow-hidden shadow-lg">
               <Image
-                src="/analyze.png"
+                src="/2.png"
                 alt="AI analyzing and generating quiz questions"
                 width={300}
                 height={600}
@@ -63,7 +63,7 @@ export function HowItWorksSection() {
             </p>
             <div className="rounded-xl border border-orange-200 bg-white overflow-hidden shadow-lg">
               <Image
-                src="/result.png"
+                src="/3.png"
                 alt="Study with quizzes and track your progress"
                 width={300}
                 height={600}
