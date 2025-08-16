@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://exammasterapp.com
+
+# Sitemaps
+Sitemap: https://exammasterapp.com/sitemap.xml
