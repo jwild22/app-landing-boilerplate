@@ -6,8 +6,28 @@ import { ThemeProvider } from '@/components/theme-provider';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'Antique Identifier App',
-  description: 'Identify, catalog, and learn about antiques with AI-powered recognition',
+  title: 'Exam Master: Quiz Maker - AI-Powered Study App',
+  description: 'Master your exams with AI-generated quizzes from PDFs and images. Study smarter with focus timers, progress tracking, and gamified learning.',
+  keywords: 'exam prep, quiz maker, AI study app, flashcards, focus timer, study planner',
+  authors: [{ name: 'Aitolkyn Abdulvakhapova' }],
+  viewport: 'width=device-width, initial-scale=1',
+  icons: {
+    icon: '/Light.png',
+    shortcut: '/Light.png',
+    apple: '/Light.png',
+  },
+  openGraph: {
+    title: 'Exam Master: Quiz Maker - AI-Powered Study App',
+    description: 'Transform any PDF or image into interactive quizzes instantly. Study smarter with AI-powered quiz generation, focus timers, and progress tracking.',
+    images: ['/Light.png'],
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Exam Master: Quiz Maker - AI-Powered Study App',
+    description: 'Master your exams with AI-generated quizzes from PDFs and images.',
+    images: ['/Light.png'],
+  },
 };
 
 export default function RootLayout({

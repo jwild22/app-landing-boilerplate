@@ -1,4 +1,4 @@
-import { Camera, Search, Sparkles, Clock, Database, BookOpen } from "lucide-react"
+import { Brain, Timer, TrendingUp, BookOpen, FileText, Star } from "lucide-react"
 
 import {
   Card,
@@ -10,73 +10,106 @@ import {
 
 export function FeaturesSection() {
   return (
-    <section id="features" className="bg-accent/30 py-16 md:py-24">
+    <section id="features" className="bg-orange-50/50 py-16 md:py-24">
       <div className="container px-4 md:px-6">
         <div className="flex flex-col items-center justify-center space-y-4 text-center">
           <div className="space-y-2">
-            <div className="inline-block rounded-lg bg-primary/10 px-3 py-1 text-sm text-primary font-medium">Features</div>
-            <h2 className="text-3xl font-bold tracking-tighter md:text-4xl/tight text-primary">
-              Everything you need to identify and learn about antiques
+            <div className="inline-block rounded-lg bg-orange-100 px-3 py-1 text-sm text-orange-600 font-medium">Features</div>
+            <h2 className="text-3xl font-bold tracking-tighter md:text-4xl/tight text-gray-900">
+              Everything you need to master your exams
             </h2>
-            <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-              Our AI-powered platform makes antique identification effortless, so you can focus on building your collection.
+            <p className="max-w-[900px] text-gray-600 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+              Our AI-powered study platform transforms how you learn, making exam preparation efficient, engaging, and effective.
             </p>
           </div>
         </div>
-        <div className="mx-auto grid max-w-5xl grid-cols-1 gap-6 py-12 md:grid-cols-2 lg:grid-cols-2">
-          <Card className="border-primary/20 bg-card/80 backdrop-blur-sm">
+        <div className="mx-auto grid max-w-5xl grid-cols-1 gap-6 py-12 md:grid-cols-2 lg:grid-cols-3">
+          <Card className="border-orange-200 bg-white backdrop-blur-sm hover:shadow-lg transition-shadow">
             <CardHeader className="pb-2">
-              <Camera className="h-6 w-6 text-primary mb-2" />
-              <CardTitle className="text-primary/90">Instant Identification</CardTitle>
+              <Brain className="h-6 w-6 text-orange-500 mb-2" />
+              <CardTitle className="text-gray-900">AI Quiz Generation</CardTitle>
               <CardDescription>
-                Identify antiques with just a photo.
+                Transform any document into practice quizzes instantly.
               </CardDescription>
             </CardHeader>
             <CardContent>
-              <p className="text-sm text-muted-foreground">
-                Our advanced AI can recognize thousands of antiques, from furniture and jewelry to art and collectibles.
+              <p className="text-sm text-gray-600">
+                Upload PDFs, images, or text and our AI creates personalized multiple-choice and single-choice questions in seconds.
               </p>
             </CardContent>
           </Card>
-          <Card className="border-primary/20 bg-card/80 backdrop-blur-sm">
+          
+          <Card className="border-orange-200 bg-white backdrop-blur-sm hover:shadow-lg transition-shadow">
             <CardHeader className="pb-2">
-              <Database className="h-6 w-6 text-primary mb-2" />
-              <CardTitle className="text-primary/90">Value Estimation</CardTitle>
+              <Timer className="h-6 w-6 text-orange-500 mb-2" />
+              <CardTitle className="text-gray-900">Focus Timer</CardTitle>
               <CardDescription>
-                Get approximate market values for your items.
+                Stay productive with built-in study timers.
               </CardDescription>
             </CardHeader>
             <CardContent>
-              <p className="text-sm text-muted-foreground">
-                Receive estimated price ranges based on recent auction data and market trends for similar items.
+              <p className="text-sm text-gray-600">
+                Choose from Pomodoro, Classic, or Stopwatch modes to track your study sessions and maintain deep focus.
               </p>
             </CardContent>
           </Card>
-          <Card className="border-primary/20 bg-card/80 backdrop-blur-sm">
+
+          <Card className="border-orange-200 bg-white backdrop-blur-sm hover:shadow-lg transition-shadow">
             <CardHeader className="pb-2">
-              <Sparkles className="h-6 w-6 text-primary mb-2" />
-              <CardTitle className="text-primary/90">Historical Context</CardTitle>
+              <TrendingUp className="h-6 w-6 text-orange-500 mb-2" />
+              <CardTitle className="text-gray-900">Progress Tracking</CardTitle>
               <CardDescription>
-                Learn the story behind your antiques.
+                Monitor your learning with detailed analytics.
               </CardDescription>
             </CardHeader>
             <CardContent>
-              <p className="text-sm text-muted-foreground">
-                Discover the historical period, style, and cultural significance of your antiques with detailed information.
+              <p className="text-sm text-gray-600">
+                Track study streaks, XP points, levels, and daily progress with beautiful charts and motivational rewards.
               </p>
             </CardContent>
           </Card>
-          <Card className="border-primary/20 bg-card/80 backdrop-blur-sm">
+
+          <Card className="border-orange-200 bg-white backdrop-blur-sm hover:shadow-lg transition-shadow">
             <CardHeader className="pb-2">
-              <Clock className="h-6 w-6 text-primary mb-2" />
-              <CardTitle className="text-primary/90">Collection Management</CardTitle>
+              <BookOpen className="h-6 w-6 text-orange-500 mb-2" />
+              <CardTitle className="text-gray-900">Smart Question Banks</CardTitle>
               <CardDescription>
-                Organize and track your antique collection.
+                Organize your study materials with categories.
               </CardDescription>
             </CardHeader>
             <CardContent>
-              <p className="text-sm text-muted-foreground">
-                Create a digital inventory of your antiques with photos, descriptions, and estimated values all in one place.
+              <p className="text-sm text-gray-600">
+                Create custom question banks with emoji icons, categorize by subject, and track completion rates for each topic.
+              </p>
+            </CardContent>
+          </Card>
+
+          <Card className="border-orange-200 bg-white backdrop-blur-sm hover:shadow-lg transition-shadow">
+            <CardHeader className="pb-2">
+              <FileText className="h-6 w-6 text-orange-500 mb-2" />
+              <CardTitle className="text-gray-900">Flashcards Mode</CardTitle>
+              <CardDescription>
+                Review concepts with interactive flashcards.
+              </CardDescription>
+            </CardHeader>
+            <CardContent>
+              <p className="text-sm text-gray-600">
+                Switch between quiz and flashcard modes for active recall practice and spaced repetition learning.
+              </p>
+            </CardContent>
+          </Card>
+
+          <Card className="border-orange-200 bg-white backdrop-blur-sm hover:shadow-lg transition-shadow">
+            <CardHeader className="pb-2">
+              <Star className="h-6 w-6 text-orange-500 mb-2" />
+              <CardTitle className="text-gray-900">Gamified Learning</CardTitle>
+              <CardDescription>
+                Stay motivated with XP, levels, and achievements.
+              </CardDescription>
+            </CardHeader>
+            <CardContent>
+              <p className="text-sm text-gray-600">
+                Earn experience points, level up, maintain study streaks, and unlock achievements as you progress through your studies.
               </p>
             </CardContent>
           </Card>

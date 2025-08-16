@@ -12,17 +12,17 @@ export function AppStoreBadge({ className, size = "medium" }: AppStoreBadgeProps
     medium: { width: 170, height: 50 },
     large: { width: 200, height: 60 }
   }
-  
+
   const { width, height } = dimensions[size]
-  
+
   return (
-    <Link 
-      href="https://apps.apple.com/us/app/antique-identifier-by-picture/id6736771469" 
+    <Link
+      href="https://apps.apple.com/us/app/exam-master-quiz-maker/id6743142831"
       className={`relative block ${className}`}
       style={{ width, height }}
     >
-      <Image 
-        src="/app-store-badge.svg" 
+      <Image
+        src="/app-store-badge.svg"
         alt="Download on the App Store"
         fill
         className="object-contain"

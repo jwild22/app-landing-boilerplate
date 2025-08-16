@@ -9,16 +9,16 @@ import {
 
 export function FAQSection() {
   return (
-    <section id="pricing" className="bg-accent/30 py-16 md:py-24">
+    <section id="faq" className="bg-orange-50/30 py-16 md:py-24">
       <div className="container px-4 md:px-6">
         <div className="flex flex-col items-center justify-center space-y-4 text-center">
           <div className="space-y-2">
-            <div className="inline-block rounded-lg bg-primary/10 px-3 py-1 text-sm text-primary font-medium">FAQ</div>
-            <h2 className="text-3xl font-bold tracking-tighter md:text-4xl/tight text-primary">
+            <div className="inline-block rounded-lg bg-orange-100 px-3 py-1 text-sm text-orange-600 font-medium">FAQ</div>
+            <h2 className="text-3xl font-bold tracking-tighter md:text-4xl/tight text-gray-900">
               Frequently asked questions
             </h2>
-            <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-              Everything you need to know about antique identification.
+            <p className="max-w-[900px] text-gray-600 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+              Everything you need to know about AI-powered studying with Exam Master.
             </p>
           </div>
         </div>
@@ -26,50 +26,50 @@ export function FAQSection() {
           <Accordion type="single" collapsible className="w-full">
             <AccordionItem value="item-1">
               <AccordionTrigger className="text-left text-base font-medium">
-                How accurate is the antique identification?
+                How accurate is the AI quiz generation?
               </AccordionTrigger>
-              <AccordionContent className="text-muted-foreground">
-                We uses advanced AI technology trained on millions of antique images to provide highly accurate identifications. For common antiques and well-known styles, the accuracy is typically 90%+. For rare or unusual items, we provide the closest matches and detailed information to help you narrow down the identification. Our system continuously improves as more users contribute to our database.
+              <AccordionContent className="text-gray-600">
+                Our AI uses advanced natural language processing to extract key concepts from your study materials and generate relevant questions. The accuracy is typically 90%+ for well-structured content like textbooks and lecture notes. You can always review and edit the generated questions to ensure they match your study needs perfectly.
               </AccordionContent>
             </AccordionItem>
             <AccordionItem value="item-2">
               <AccordionTrigger className="text-left text-base font-medium">
-                Can this antique identifier app determine the value of my antiques?
+                What file formats can I upload for quiz generation?
               </AccordionTrigger>
-              <AccordionContent className="text-muted-foreground">
-                Yes, we provides estimated value ranges based on recent auction data, market trends, and comparable sales. However, these are approximations and many factors can affect an item's actual value, including condition, provenance, rarity, and regional market variations. For high-value items, we always recommend consulting with a professional appraiser.
+              <AccordionContent className="text-gray-600">
+                Exam Master supports PDF files, images (JPG, PNG), and text documents. Our AI can process textbooks, lecture slides, handwritten notes, research papers, and even screenshots. The Pro version includes enhanced processing for complex layouts and handwriting recognition.
               </AccordionContent>
             </AccordionItem>
             <AccordionItem value="item-3">
               <AccordionTrigger className="text-left text-base font-medium">
-                What types of antiques can the app identify?
+                How does the focus timer help with studying?
               </AccordionTrigger>
-              <AccordionContent className="text-muted-foreground">
-                Our identifier app can identify a wide range of antiques and collectibles including furniture, ceramics, glassware, jewelry, silverware, artwork, clocks, watches, coins, stamps, toys, and many other categories. Our database includes items from various periods and styles, from ancient artifacts to mid-century modern pieces.
+              <AccordionContent className="text-gray-600">
+                The focus timer includes three modes: Pomodoro (25-min work, 5-min break), Classic (customizable duration), and Stopwatch (track study time). Research shows that timed study sessions improve concentration and retention. Your focus sessions are tracked and contribute to your XP and study streaks.
               </AccordionContent>
             </AccordionItem>
             <AccordionItem value="item-4">
               <AccordionTrigger className="text-left text-base font-medium">
-                How do I take the best photo for identification?
+                Can I share my question banks with classmates?
               </AccordionTrigger>
-              <AccordionContent className="text-muted-foreground">
-                For best results, take photos in good natural lighting, against a plain background. Capture the entire item and include multiple angles if possible. For items with marks, signatures, or hallmarks, take close-up photos of these details as they can be crucial for accurate identification. Avoid shadows, glare, and blurry images.
+              <AccordionContent className="text-gray-600">
+                Yes! Pro users can export question banks as JSON files and share them with friends. Recipients can import these files into their own Exam Master app. This makes group study sessions more effective and helps your study group collaborate on exam preparation.
               </AccordionContent>
             </AccordionItem>
             <AccordionItem value="item-5">
               <AccordionTrigger className="text-left text-base font-medium">
-                Can I use this antique identifier app offline?
+                How does the XP and leveling system work?
               </AccordionTrigger>
-              <AccordionContent className="text-muted-foreground">
-                The core identification feature requires an internet connection to access our AI and database. However, subscribers can save identified items to their collection for offline viewing.
+              <AccordionContent className="text-gray-600">
+                You earn XP points for completing quizzes, maintaining study streaks, and using focus timers. Every 50 XP, you level up and unlock achievements. This gamification system is designed to keep you motivated and make studying more engaging. Your progress is tracked with beautiful charts and statistics.
               </AccordionContent>
             </AccordionItem>
             <AccordionItem value="item-6">
               <AccordionTrigger className="text-left text-base font-medium">
-                How is my data and privacy protected?
+                Is my study data private and secure?
               </AccordionTrigger>
-              <AccordionContent className="text-muted-foreground">
-                We take your privacy seriously. Photos you upload are used only for identification purposes and to improve our AI system. You can choose whether to contribute your identified items to our database. All personal information is encrypted and never shared with third parties without your explicit consent. You can delete your account and data at any time.
+              <AccordionContent className="text-gray-600">
+                Absolutely. All your uploaded documents and generated questions are stored securely and encrypted. We don't collect any personal data from the free version. Your study materials are never shared with third parties, and you can delete your account and all data at any time. Privacy is our priority.
               </AccordionContent>
             </AccordionItem>
           </Accordion>

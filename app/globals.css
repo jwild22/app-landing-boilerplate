@@ -44,31 +44,32 @@
     --chart-5: 35 65% 50%;
     --radius: 0.5rem;
   }
+
   .dark {
-    --background: 30 9% 10%;
-    --foreground: 36 33% 97%;
-    --card: 30 9% 12%;
-    --card-foreground: 36 33% 97%;
-    --popover: 30 9% 12%;
-    --popover-foreground: 36 33% 97%;
-    --primary: 32 30% 60%;
-    --primary-foreground: 30 9% 10%;
-    --secondary: 28 10% 20%;
-    --secondary-foreground: 36 33% 97%;
-    --muted: 28 10% 20%;
-    --muted-foreground: 36 33% 70%;
-    --accent: 20 30% 25%;
-    --accent-foreground: 36 33% 97%;
+    --background: 222.2 84% 4.9%;
+    --foreground: 210 40% 98%;
+    --card: 222.2 84% 4.9%;
+    --card-foreground: 210 40% 98%;
+    --popover: 222.2 84% 4.9%;
+    --popover-foreground: 210 40% 98%;
+    --primary: 20.5 90.2% 48.2%;
+    --primary-foreground: 220.9 39.3% 11%;
+    --secondary: 217.2 32.6% 17.5%;
+    --secondary-foreground: 210 40% 98%;
+    --muted: 217.2 32.6% 17.5%;
+    --muted-foreground: 215 20.2% 65.1%;
+    --accent: 217.2 32.6% 17.5%;
+    --accent-foreground: 210 40% 98%;
     --destructive: 0 62.8% 30.6%;
-    --destructive-foreground: 36 33% 97%;
-    --border: 28 10% 25%;
-    --input: 28 10% 25%;
-    --ring: 32 30% 60%;
-    --chart-1: 32 30% 60%;
-    --chart-2: 15 50% 50%;
-    --chart-3: 42 40% 55%;
-    --chart-4: 5 45% 50%;
-    --chart-5: 35 45% 60%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 217.2 32.6% 17.5%;
+    --input: 217.2 32.6% 17.5%;
+    --ring: 20.5 90.2% 48.2%;
+    --chart-1: 20.5 90.2% 48.2%;
+    --chart-2: 160 60% 45%;
+    --chart-3: 30 80% 55%;
+    --chart-4: 280 65% 60%;
+    --chart-5: 340 75% 55%;
   }
 }
 
@@ -76,7 +77,107 @@
   * {
     @apply border-border;
   }
+
   body {
     @apply bg-background text-foreground;
+  }
+}
+
+@layer components {
+
+  /* Dark mode specific improvements for orange theme */
+  .dark .bg-orange-50 {
+    @apply bg-gray-900/50;
+  }
+
+  .dark .bg-orange-50\/50 {
+    @apply bg-gray-900/30;
+  }
+
+  .dark .bg-orange-50\/30 {
+    @apply bg-gray-900/20;
+  }
+
+  .dark .bg-orange-50\/20 {
+    @apply bg-gray-900/10;
+  }
+
+  .dark .bg-orange-100 {
+    @apply bg-orange-900/30;
+  }
+
+  .dark .text-orange-600 {
+    @apply text-orange-400;
+  }
+
+  .dark .text-gray-900 {
+    @apply text-gray-100;
+  }
+
+  .dark .text-gray-600 {
+    @apply text-gray-300;
+  }
+
+  .dark .text-gray-500 {
+    @apply text-gray-400;
+  }
+
+  .dark .border-orange-200 {
+    @apply border-gray-700;
+  }
+
+  .dark .border-orange-300 {
+    @apply border-orange-600;
+  }
+
+  .dark .border-orange-100 {
+    @apply border-gray-800;
+  }
+
+  .dark .border-gray-100 {
+    @apply border-gray-800;
+  }
+
+  .dark .border-gray-200 {
+    @apply border-gray-700;
+  }
+
+  /* Phone mockup dark mode */
+  .dark .phone-mockup {
+    @apply bg-gray-800 shadow-2xl shadow-black/60;
+  }
+
+  .dark .feature-card {
+    @apply bg-gray-800/50 border-gray-700;
+  }
+
+  /* Hero section gradient dark mode */
+  .dark .hero-gradient {
+    background: linear-gradient(to bottom, rgb(17 24 39 / 0.8), rgb(17 24 39));
+  }
+
+  /* Card improvements */
+  .dark .bg-white {
+    @apply bg-gray-900;
+  }
+
+  .dark .bg-gray-50 {
+    @apply bg-gray-800;
+  }
+
+  .dark .hover\:bg-orange-50:hover {
+    @apply hover:bg-orange-900/20;
+  }
+
+  .dark .hover\:bg-orange-100:hover {
+    @apply hover:bg-orange-900/30;
+  }
+
+  .dark .hover\:bg-blue-100:hover {
+    @apply hover:bg-blue-900/30;
+  }
+
+  .dark .hover\:bg-green-100:hover {
+    @apply hover:bg-green-900/30;
   }
 }
