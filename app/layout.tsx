@@ -20,14 +20,26 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Exam Master: Quiz Maker - AI-Powered Study App',
     description: 'Transform any PDF or image into interactive quizzes instantly. Study smarter with AI-powered quiz generation, focus timers, and progress tracking.',
-    images: ['/Light.png'],
+    url: 'https://exammasterapp.com',
+    siteName: 'Exam Master',
+    images: [
+      {
+        url: 'https://exammasterapp.com/1.png',
+        width: 1200,
+        height: 630,
+        alt: 'Exam Master - AI-Powered Quiz Maker App Interface',
+      }
+    ],
+    locale: 'en_US',
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Exam Master: Quiz Maker - AI-Powered Study App',
-    description: 'Master your exams with AI-generated quizzes from PDFs and images.',
-    images: ['/Light.png'],
+    description: 'Master your exams with AI-generated quizzes from PDFs and images. Study smarter with focus timers, progress tracking, and gamified learning.',
+    images: ['https://exammasterapp.com/1.png'],
+    creator: '@exammaster_app',
+    site: '@exammaster_app',
   },
 };
 
