@@ -16,10 +16,10 @@ export function SiteFooter() {
                 height={32}
                 className="rounded-lg"
               />
-              <span className="font-bold text-xl text-gray-900">Exam Master</span>
+              <span className="font-bold text-xl text-gray-900">Exam Master: Quiz Maker</span>
             </Link>
             <p className="text-sm text-gray-600">
-              Master your exams with AI-powered quiz generation, focus timers, and smart study tools designed for student success.
+              Quiz maker app with AI-powered quiz generation. Create custom quizzes, flashcards, and track your study progress with our intelligent quiz builder for iOS.
             </p>
           </div>
           <div className="space-y-4">
@@ -44,7 +44,7 @@ export function SiteFooter() {
           </div>
         </div>
         <div className="mt-12 border-t border-border pt-6 text-center text-sm text-gray-600">
-          <p>© {new Date().getFullYear()} Exam Master. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} Exam Master: Quiz Maker. All rights reserved.</p>
         </div>
       </div>
     </footer>

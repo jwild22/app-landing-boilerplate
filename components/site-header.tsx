@@ -24,7 +24,7 @@ export function SiteHeader() {
                 height={32}
                 className="rounded-lg"
               />
-              <span className="font-bold text-lg sm:text-xl">Exam Master</span>
+              <span className="font-bold text-lg sm:text-xl">Exam Master: Quiz Maker</span>
             </Link>
           </div>
 

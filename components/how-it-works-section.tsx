@@ -9,10 +9,10 @@ export function HowItWorksSection() {
           <div className="space-y-3 sm:space-y-4">
             <div className="inline-block rounded-lg bg-orange-100 px-3 py-1 text-sm text-orange-600 font-medium">How It Works</div>
             <h2 className="text-2xl sm:text-3xl font-bold tracking-tighter md:text-4xl/tight text-gray-900">
-              Create study quizzes in three simple steps
+              How Our Quiz Maker Works
             </h2>
             <p className="max-w-[900px] text-gray-600 text-sm sm:text-base md:text-lg lg:text-base xl:text-xl px-4 sm:px-0">
-              Transform any study material into interactive quizzes with our intelligent AI system.
+              Use our iOS quiz maker to transform any study material into interactive quizzes in three simple steps.
             </p>
           </div>
         </div>
@@ -39,9 +39,9 @@ export function HowItWorksSection() {
             <div className="flex h-12 w-12 sm:h-16 sm:w-16 items-center justify-center rounded-full bg-orange-100">
               <Brain className="h-6 w-6 sm:h-8 sm:w-8 text-orange-500" />
             </div>
-            <h3 className="text-lg sm:text-xl font-bold text-gray-900">2. AI Generates Quizzes</h3>
+            <h3 className="text-lg sm:text-xl font-bold text-gray-900">2. Quiz Maker Generates Questions</h3>
             <p className="text-gray-600 text-sm sm:text-base">
-              Our advanced AI analyzes your content and creates personalized multiple-choice and single-choice questions targeting key concepts.
+              Our AI quiz maker analyzes your content and creates personalized multiple-choice and single-choice questions targeting key concepts automatically.
             </p>
             <div className="rounded-xl border border-orange-200 bg-white overflow-hidden shadow-lg max-w-[250px] sm:max-w-[300px]">
               <Image

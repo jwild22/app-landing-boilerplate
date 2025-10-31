@@ -24,10 +24,10 @@ export function HeroSection() {
                 </div>
               </div>
               <h1 className="text-2xl font-bold tracking-tighter sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl/none text-gray-900 text-center lg:text-left">
-                Master Your Exams with AI-Generated Quizzes
+                Quiz Maker App - Create AI Quizzes Instantly
               </h1>
               <p className="max-w-[600px] text-gray-600 text-sm sm:text-base md:text-lg lg:text-xl text-center lg:text-left mx-auto lg:mx-0">
-                Transform any PDF, image, or document into interactive quizzes instantly. Study smarter, not harder with personalized question banks, focus timers, and gamified learning.
+                The ultimate quiz maker app to transform any PDF, image, or document into interactive quizzes. Create custom quizzes with our AI-powered quiz generator. Study smarter with personalized question banks, focus timers, and gamified learning.
               </p>
             </div>
             <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 items-center justify-center lg:justify-start">

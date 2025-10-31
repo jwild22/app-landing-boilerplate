@@ -16,10 +16,10 @@ export function FeaturesSection() {
           <div className="space-y-3 sm:space-y-4">
             <div className="inline-block rounded-lg bg-orange-100 px-3 py-1 text-sm text-orange-600 font-medium">Features</div>
             <h2 className="text-2xl sm:text-3xl font-bold tracking-tighter md:text-4xl/tight text-gray-900">
-              Everything you need to master your exams
+              Powerful Quiz Maker Features
             </h2>
             <p className="max-w-[900px] text-gray-600 text-sm sm:text-base md:text-lg lg:text-base xl:text-xl px-4 sm:px-0">
-              Our AI-powered study platform transforms how you learn, making exam preparation efficient, engaging, and effective.
+              Our AI-powered quiz maker platform makes creating and taking quizzes effortless. Build custom quizzes, track progress, and ace your exams with intelligent study tools.
             </p>
           </div>
         </div>
@@ -27,14 +27,14 @@ export function FeaturesSection() {
           <Card className="border-orange-200 bg-white backdrop-blur-sm hover:shadow-lg transition-shadow">
             <CardHeader className="pb-3 sm:pb-2">
               <Brain className="h-5 w-5 sm:h-6 sm:w-6 text-orange-500 mb-2" />
-              <CardTitle className="text-gray-900 text-base sm:text-lg">AI Quiz Generation</CardTitle>
+              <CardTitle className="text-gray-900 text-base sm:text-lg">AI Quiz Maker</CardTitle>
               <CardDescription className="text-sm">
-                Transform any document into practice quizzes instantly.
+                Create quizzes from any document instantly with AI.
               </CardDescription>
             </CardHeader>
             <CardContent className="pt-0">
               <p className="text-xs sm:text-sm text-gray-600">
-                Upload PDFs, images, or text and our AI creates personalized multiple-choice and single-choice questions in seconds.
+                Upload PDFs, images, or text and our AI quiz generator creates personalized multiple-choice and single-choice questions in seconds.
               </p>
             </CardContent>
           </Card>
