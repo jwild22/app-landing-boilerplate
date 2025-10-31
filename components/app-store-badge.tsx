@@ -17,7 +17,7 @@ export function AppStoreBadge({ className, size = "medium" }: AppStoreBadgeProps
 
   return (
     <Link
-      href="https://apps.apple.com/us/app/exam-master-quiz-maker/id6743142831"
+      href="https://apps.apple.com/app/apple-store/id6743142831?pt=127400965&ct=google.com&mt=8"
       className={`relative block ${className}`}
       style={{ width, height }}
     >

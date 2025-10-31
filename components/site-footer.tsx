@@ -36,7 +36,7 @@ export function SiteFooter() {
                 </Link>
               </li>
               <li>
-                <Link href="https://apps.apple.com/us/app/exam-master-quiz-maker/id6743142831" className="text-gray-600 hover:text-orange-500">
+                <Link href="https://apps.apple.com/app/apple-store/id6743142831?pt=127400965&ct=google.com&mt=8" className="text-gray-600 hover:text-orange-500">
                   Download App
                 </Link>
               </li>

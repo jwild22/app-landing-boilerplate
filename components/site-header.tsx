@@ -44,7 +44,7 @@ export function SiteHeader() {
           {/* Desktop Actions */}
           <div className="hidden md:flex items-center gap-2">
             <ThemeToggle />
-            <Link href="https://apps.apple.com/us/app/exam-master-quiz-maker/id6743142831" className="w-[120px] h-[40px] relative">
+            <Link href="https://apps.apple.com/app/apple-store/id6743142831?pt=127400965&ct=google.com&mt=8" className="w-[120px] h-[40px] relative">
               <Image
                 src="/app-store-badge.svg"
                 alt="Download on the App Store"
@@ -95,7 +95,7 @@ export function SiteHeader() {
               </Link>
               <div className="pt-2 border-t">
                 <Link
-                  href="https://apps.apple.com/us/app/exam-master-quiz-maker/id6743142831"
+                  href="https://apps.apple.com/app/apple-store/id6743142831?pt=127400965&ct=google.com&mt=8"
                   className="flex justify-center py-2"
                   onClick={() => setMobileMenuOpen(false)}
                 >

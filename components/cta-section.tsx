@@ -18,7 +18,7 @@ export function CTASection() {
             </p>
           </div>
           <div className="flex flex-col gap-2 min-[400px]:flex-row justify-center pt-2">
-            <Link href="https://apps.apple.com/us/app/exam-master-quiz-maker/id6743142831" className="w-[150px] sm:w-[170px] h-[45px] sm:h-[50px] relative">
+            <Link href="https://apps.apple.com/app/apple-store/id6743142831?pt=127400965&ct=google.com&mt=8" className="w-[150px] sm:w-[170px] h-[45px] sm:h-[50px] relative">
               <Image
                 src="/app-store-badge.svg"
                 alt="Download on the App Store"
