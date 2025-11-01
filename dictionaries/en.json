@@ -1,0 +1,151 @@
+{
+  "app": {
+    "name": "Exam Master: Quiz Maker",
+    "shortName": "Exam Master"
+  },
+  "header": {
+    "features": "Features",
+    "howItWorks": "How It Works",
+    "faq": "FAQ"
+  },
+  "hero": {
+    "badge": "AI-Powered Study Companion",
+    "title": "Quiz Maker App - Create AI Quizzes Instantly",
+    "description": "The ultimate quiz maker app to transform any PDF, image, or document into interactive quizzes. Create custom quizzes with our AI-powered quiz generator. Study smarter with personalized question banks, focus timers, and gamified learning.",
+    "cta": "Discover Features",
+    "freeDownload": "Free download",
+    "premiumFeatures": "Premium features",
+    "students": "5,000+ students",
+    "aiQuizCreation": "AI Quiz Creation",
+    "focusTimer": "Focus Timer",
+    "progressTracking": "Progress Tracking",
+    "xp": "XP",
+    "streak": "Streak",
+    "level": "Level"
+  },
+  "features": {
+    "badge": "Features",
+    "title": "Powerful Quiz Maker Features",
+    "description": "Our AI-powered quiz maker platform makes creating and taking quizzes effortless. Build custom quizzes, track progress, and ace your exams with intelligent study tools.",
+    "aiQuizMaker": {
+      "title": "AI Quiz Maker",
+      "description": "Create quizzes from any document instantly with AI.",
+      "detail": "Upload PDFs, images, or text and our AI quiz generator creates personalized multiple-choice and single-choice questions in seconds."
+    },
+    "focusTimer": {
+      "title": "Focus Timer",
+      "description": "Stay productive with built-in study timers.",
+      "detail": "Choose from Pomodoro, Classic, or Stopwatch modes to track your study sessions and maintain deep focus."
+    },
+    "progressTracking": {
+      "title": "Progress Tracking",
+      "description": "Monitor your learning with detailed analytics.",
+      "detail": "Track study streaks, XP points, levels, and daily progress with beautiful charts and motivational rewards."
+    },
+    "smartQuestionBanks": {
+      "title": "Smart Question Banks",
+      "description": "Organize your study materials with categories.",
+      "detail": "Create custom question banks with emoji icons, categorize by subject, and track completion rates for each topic."
+    },
+    "flashcardsMode": {
+      "title": "Flashcards Mode",
+      "description": "Review concepts with interactive flashcards.",
+      "detail": "Switch between quiz and flashcard modes for active recall practice and spaced repetition learning."
+    },
+    "gamifiedLearning": {
+      "title": "Gamified Learning",
+      "description": "Stay motivated with XP, levels, and achievements.",
+      "detail": "Earn experience points, level up, maintain study streaks, and unlock achievements as you progress through your studies."
+    }
+  },
+  "howItWorks": {
+    "badge": "How It Works",
+    "title": "How Our Quiz Maker Works",
+    "description": "Use our iOS quiz maker to transform any study material into interactive quizzes in three simple steps.",
+    "step1": {
+      "title": "1. Upload Your Material",
+      "description": "Upload PDFs, images, or text documents. Our AI supports textbooks, lecture notes, research papers, and handwritten notes."
+    },
+    "step2": {
+      "title": "2. Quiz Maker Generates Questions",
+      "description": "Our AI quiz maker analyzes your content and creates personalized multiple-choice and single-choice questions targeting key concepts automatically."
+    },
+    "step3": {
+      "title": "3. Study & Track Progress",
+      "description": "Take quizzes, use flashcards, track your progress, and maintain study streaks. Earn XP and level up as you master your subjects."
+    }
+  },
+  "testimonials": {
+    "badge": "Testimonials",
+    "title": "Loved by students worldwide",
+    "description": "Join over 5,000 students who have improved their grades with Exam Master.",
+    "sarah": {
+      "name": "Sarah Chen",
+      "role": "Medical Student",
+      "quote": "My GPA improved from 3.2 to 3.8 after using Exam Master. The AI quiz generation is incredible - it picks up exactly the concepts I need to focus on. The study streaks keep me motivated daily!"
+    },
+    "marcus": {
+      "name": "Marcus Johnson",
+      "role": "Engineering Student",
+      "quote": "I've been sleeping better since I started using structured study sessions with the focus timer. Passed my finals with flying colors and actually retained the information. Game changer!"
+    },
+    "emily": {
+      "name": "Emily Rodriguez",
+      "role": "Pre-Law Student",
+      "quote": "Finally found an app that understands how students actually study. The ability to turn any PDF into quizzes saves me hours. The gamification with XP and levels actually makes studying fun!"
+    }
+  },
+  "faq": {
+    "badge": "FAQ",
+    "title": "Frequently asked questions",
+    "description": "Everything you need to know about AI-powered studying with Exam Master.",
+    "q1": {
+      "question": "How accurate is the AI quiz generation?",
+      "answer": "Our AI uses advanced natural language processing to extract key concepts from your study materials and generate relevant questions. The accuracy is typically 90%+ for well-structured content like textbooks and lecture notes. You can always review and edit the generated questions to ensure they match your study needs perfectly."
+    },
+    "q2": {
+      "question": "What file formats can I upload for quiz generation?",
+      "answer": "Exam Master supports PDF files, images (JPG, PNG), and text documents. Our AI can process textbooks, lecture slides, handwritten notes, research papers, and even screenshots. The Pro version includes enhanced processing for complex layouts and handwriting recognition."
+    },
+    "q3": {
+      "question": "How does the focus timer help with studying?",
+      "answer": "The focus timer includes three modes: Pomodoro (25-min work, 5-min break), Classic (customizable duration), and Stopwatch (track study time). Research shows that timed study sessions improve concentration and retention. Your focus sessions are tracked and contribute to your XP and study streaks."
+    },
+    "q4": {
+      "question": "Can I share my question banks with classmates?",
+      "answer": "Yes! Pro users can export question banks as JSON files and share them with friends. Recipients can import these files into their own Exam Master app. This makes group study sessions more effective and helps your study group collaborate on exam preparation."
+    },
+    "q5": {
+      "question": "How does the XP and leveling system work?",
+      "answer": "You earn XP points for completing quizzes, maintaining study streaks, and using focus timers. Every 50 XP, you level up and unlock achievements. This gamification system is designed to keep you motivated and make studying more engaging. Your progress is tracked with beautiful charts and statistics."
+    },
+    "q6": {
+      "question": "Is my study data private and secure?",
+      "answer": "Absolutely. All your uploaded documents and generated questions are stored securely and encrypted. We don't collect any personal data from the free version. Your study materials are never shared with third parties, and you can delete your account and all data at any time. Privacy is our priority."
+    }
+  },
+  "cta": {
+    "title": "Start mastering your exams today",
+    "description": "Join over 5,000 students worldwide who have improved their grades with AI-powered quiz generation and smart study tools.",
+    "note": "Free download with premium AI features available"
+  },
+  "footer": {
+    "description": "Quiz maker app with AI-powered quiz generation. Create custom quizzes, flashcards, and track your study progress with our intelligent quiz builder for iOS.",
+    "company": "Company",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service",
+    "downloadApp": "Download App",
+    "copyright": "All rights reserved."
+  },
+  "meta": {
+    "title": "Quiz Maker - Create AI-Powered Quizzes Instantly | Exam Master",
+    "description": "Quiz maker app to create interactive quizzes from PDFs and images. AI-powered quiz generator for students and teachers. Make custom quizzes in seconds with our iOS quiz maker.",
+    "keywords": "quiz maker, quiz maker app, quiz creator, quiz generator, quiz builder, make a quiz, create quiz, AI quiz maker, quiz maker for students, iOS quiz maker, exam prep, AI study app, flashcards, focus timer, study planner, test maker, assessment tool",
+    "ogTitle": "Quiz Maker - Create AI-Powered Quizzes Instantly | Exam Master",
+    "ogDescription": "Transform any PDF or image into interactive quizzes with our iOS quiz maker app. AI-powered quiz generator perfect for students, teachers, and exam preparation.",
+    "siteName": "Exam Master Quiz Maker",
+    "imageAlt": "Quiz Maker App - Create Interactive Quizzes with AI",
+    "twitterTitle": "Quiz Maker - Create AI-Powered Quizzes Instantly",
+    "twitterDescription": "iOS quiz maker app to create interactive quizzes from PDFs and images. AI-powered quiz generator for students and teachers."
+  }
+}

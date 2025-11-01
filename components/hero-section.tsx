@@ -4,7 +4,12 @@ import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { AppStoreBadge } from "@/components/app-store-badge"
 
-export function HeroSection() {
+interface HeroSectionProps {
+  dict: any
+  locale: string
+}
+
+export function HeroSection({ dict, locale }: HeroSectionProps) {
   return (
     <section className="relative py-8 sm:py-12 md:py-20 lg:py-28 overflow-hidden bg-gradient-to-b from-orange-50 to-background dark:hero-gradient">
       <div className="container px-4 md:px-6">
@@ -20,21 +25,21 @@ export function HeroSection() {
                     height={16}
                     className="rounded sm:w-5 sm:h-5"
                   />
-                  <span className="whitespace-nowrap">AI-Powered Study Companion</span>
+                  <span className="whitespace-nowrap">{dict.hero.badge}</span>
                 </div>
               </div>
               <h1 className="text-2xl font-bold tracking-tighter sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl/none text-gray-900 text-center lg:text-left">
-                Quiz Maker App - Create AI Quizzes Instantly
+                {dict.hero.title}
               </h1>
               <p className="max-w-[600px] text-gray-600 text-sm sm:text-base md:text-lg lg:text-xl text-center lg:text-left mx-auto lg:mx-0">
-                The ultimate quiz maker app to transform any PDF, image, or document into interactive quizzes. Create custom quizzes with our AI-powered quiz generator. Study smarter with personalized question banks, focus timers, and gamified learning.
+                {dict.hero.description}
               </p>
             </div>
             <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 items-center justify-center lg:justify-start">
-              <AppStoreBadge size="medium" />
+              <AppStoreBadge size="medium" locale={locale} />
               <Button size="lg" variant="outline" asChild className="border-orange-300 hover:bg-orange-50 hover:text-orange-600 w-full sm:w-auto">
                 <Link href="#features">
-                  Discover Features
+                  {dict.hero.cta}
                 </Link>
               </Button>
             </div>
@@ -42,15 +47,15 @@ export function HeroSection() {
               <div className="flex flex-wrap items-center justify-center lg:justify-start gap-3 sm:gap-4">
                 <div className="flex items-center gap-1">
                   <div className="h-2 w-2 rounded-full bg-orange-500" />
-                  <span className="whitespace-nowrap">Free download</span>
+                  <span className="whitespace-nowrap">{dict.hero.freeDownload}</span>
                 </div>
                 <div className="flex items-center gap-1">
                   <div className="h-2 w-2 rounded-full bg-orange-500" />
-                  <span className="whitespace-nowrap">Premium features</span>
+                  <span className="whitespace-nowrap">{dict.hero.premiumFeatures}</span>
                 </div>
                 <div className="flex items-center gap-1">
                   <div className="h-2 w-2 rounded-full bg-orange-500" />
-                  <span className="whitespace-nowrap">5,000+ students</span>
+                  <span className="whitespace-nowrap">{dict.hero.students}</span>
                 </div>
               </div>
             </div>
@@ -71,7 +76,7 @@ export function HeroSection() {
                         </svg>
                       </div>
                       <div>
-                        <div className="text-xs sm:text-sm font-medium text-gray-900">AI Quiz Creation</div>
+                        <div className="text-xs sm:text-sm font-medium text-gray-900">{dict.hero.aiQuizCreation}</div>
                       </div>
                     </div>
 
@@ -83,7 +88,7 @@ export function HeroSection() {
                         </svg>
                       </div>
                       <div>
-                        <div className="text-xs sm:text-sm font-medium text-gray-900">Focus Timer</div>
+                        <div className="text-xs sm:text-sm font-medium text-gray-900">{dict.hero.focusTimer}</div>
                       </div>
                     </div>
 
@@ -96,7 +101,7 @@ export function HeroSection() {
                         </svg>
                       </div>
                       <div>
-                        <div className="text-xs sm:text-sm font-medium text-gray-900">Progress Tracking</div>
+                        <div className="text-xs sm:text-sm font-medium text-gray-900">{dict.hero.progressTracking}</div>
                       </div>
                     </div>
                   </div>
@@ -105,15 +110,15 @@ export function HeroSection() {
                   <div className="flex justify-center gap-4 sm:gap-6 mt-4 sm:mt-6">
                     <div className="text-center">
                       <div className="text-sm sm:text-lg font-bold text-purple-500">1,250</div>
-                      <div className="text-xs text-gray-500">XP</div>
+                      <div className="text-xs text-gray-500">{dict.hero.xp}</div>
                     </div>
                     <div className="text-center">
                       <div className="text-sm sm:text-lg font-bold text-orange-500">15</div>
-                      <div className="text-xs text-gray-500">Streak</div>
+                      <div className="text-xs text-gray-500">{dict.hero.streak}</div>
                     </div>
                     <div className="text-center">
                       <div className="text-sm sm:text-lg font-bold text-blue-500">Lv.8</div>
-                      <div className="text-xs text-gray-500">Level</div>
+                      <div className="text-xs text-gray-500">{dict.hero.level}</div>
                     </div>
                   </div>
                 </div>

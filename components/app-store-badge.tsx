@@ -4,28 +4,37 @@ import Link from "next/link"
 interface AppStoreBadgeProps {
   className?: string
   size?: "small" | "medium" | "large"
+  locale?: string
 }
 
-export function AppStoreBadge({ className, size = "medium" }: AppStoreBadgeProps) {
+export function AppStoreBadge({ className, size = "medium", locale = "en" }: AppStoreBadgeProps) {
   const dimensions = {
-    small: { width: 120, height: 40 },
-    medium: { width: 170, height: 50 },
-    large: { width: 200, height: 60 }
+    small: { width: 163, height: 55 },
+    medium: { width: 204, height: 68 },
+    large: { width: 245, height: 82 }
   }
 
   const { width, height } = dimensions[size]
 
+  // Use Apple's official CDN badges
+  const badgeSrc = locale === 'fr'
+    ? 'https://toolbox.marketingtools.apple.com/api/v2/badges/download-on-the-app-store/black/fr-fr?releaseDate=1742688000'
+    : 'https://toolbox.marketingtools.apple.com/api/v2/badges/download-on-the-app-store/black/en-us?releaseDate=1742688000'
+
+  const altText = locale === 'fr' ? "Télécharger dans l'App Store" : 'Download on the App Store'
+
   return (
     <Link
-      href="https://apps.apple.com/app/apple-store/id6743142831?pt=127400965&ct=google.com&mt=8"
-      className={`relative block ${className}`}
-      style={{ width, height }}
+      href="https://apps.apple.com/fr/app/exam-master-lia-de-r%C3%A9vision/id6743142831?itscg=30200&itsct=apps_box_badge&mttnsubad=6743142831"
+      className={`inline-block ${className}`}
     >
       <Image
-        src="/app-store-badge.svg"
-        alt="Download on the App Store"
-        fill
+        src={badgeSrc}
+        alt={altText}
+        width={width}
+        height={height}
         className="object-contain"
+        unoptimized
       />
     </Link>
   )

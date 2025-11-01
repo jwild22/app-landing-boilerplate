@@ -1,0 +1,151 @@
+{
+  "app": {
+    "name": "Exam Master : l'IA de révision n°1",
+    "shortName": "Exam Master"
+  },
+  "header": {
+    "features": "Fonctionnalités",
+    "howItWorks": "Comment ça marche",
+    "faq": "FAQ"
+  },
+  "hero": {
+    "badge": "Compagnon de révision avec IA",
+    "title": "Créez des quiz avec l'IA instantanément",
+    "description": "L'application ultime pour transformer vos PDF, images ou documents en quiz interactifs. Créez des quiz personnalisés avec notre générateur de quiz IA. Révisez intelligemment avec des banques de questions, des minuteurs de concentration et l'apprentissage gamifié.",
+    "cta": "Découvrir les fonctionnalités",
+    "freeDownload": "Téléchargement gratuit",
+    "premiumFeatures": "Fonctionnalités premium",
+    "students": "Plus de 5 000 étudiants",
+    "aiQuizCreation": "Création de quiz par IA",
+    "focusTimer": "Minuteur de concentration",
+    "progressTracking": "Suivi de progression",
+    "xp": "XP",
+    "streak": "Série",
+    "level": "Niveau"
+  },
+  "features": {
+    "badge": "Fonctionnalités",
+    "title": "Des fonctionnalités puissantes pour vos quiz",
+    "description": "Notre plateforme de quiz alimentée par l'IA facilite la création et la pratique de quiz. Créez des quiz personnalisés, suivez vos progrès et réussissez vos examens avec des outils d'étude intelligents.",
+    "aiQuizMaker": {
+      "title": "Générateur de quiz IA",
+      "description": "Créez des quiz depuis n'importe quel document instantanément avec l'IA.",
+      "detail": "Téléchargez des PDF, images ou textes et notre IA génère des questions à choix multiples et uniques personnalisées en quelques secondes."
+    },
+    "focusTimer": {
+      "title": "Minuteur de concentration",
+      "description": "Restez productif avec des minuteurs d'étude intégrés.",
+      "detail": "Choisissez parmi les modes Pomodoro, Classique ou Chronomètre pour suivre vos sessions d'étude et maintenir une concentration profonde."
+    },
+    "progressTracking": {
+      "title": "Suivi de progression",
+      "description": "Surveillez votre apprentissage avec des analyses détaillées.",
+      "detail": "Suivez vos séries d'étude, points XP, niveaux et progrès quotidiens avec de beaux graphiques et des récompenses motivantes."
+    },
+    "smartQuestionBanks": {
+      "title": "Banques de questions intelligentes",
+      "description": "Organisez vos supports d'étude par catégories.",
+      "detail": "Créez des banques de questions personnalisées avec des icônes emoji, classez par matière et suivez les taux de complétion pour chaque sujet."
+    },
+    "flashcardsMode": {
+      "title": "Mode cartes mémoire",
+      "description": "Révisez les concepts avec des cartes interactives.",
+      "detail": "Alternez entre les modes quiz et cartes mémoire pour la pratique de rappel actif et l'apprentissage par répétition espacée."
+    },
+    "gamifiedLearning": {
+      "title": "Apprentissage gamifié",
+      "description": "Restez motivé avec XP, niveaux et succès.",
+      "detail": "Gagnez des points d'expérience, montez de niveau, maintenez des séries d'étude et débloquez des succès au fur et à mesure de votre progression."
+    }
+  },
+  "howItWorks": {
+    "badge": "Comment ça marche",
+    "title": "Comment fonctionne notre générateur de quiz",
+    "description": "Utilisez notre générateur de quiz iOS pour transformer n'importe quel support d'étude en quiz interactifs en trois étapes simples.",
+    "step1": {
+      "title": "1. Téléchargez votre contenu",
+      "description": "Téléchargez des PDF, images ou documents texte. Notre IA prend en charge les manuels, notes de cours, articles de recherche et notes manuscrites."
+    },
+    "step2": {
+      "title": "2. L'IA génère les questions",
+      "description": "Notre générateur de quiz IA analyse votre contenu et crée automatiquement des questions à choix multiples et uniques ciblant les concepts clés."
+    },
+    "step3": {
+      "title": "3. Révisez et suivez vos progrès",
+      "description": "Répondez aux quiz, utilisez les cartes mémoire, suivez vos progrès et maintenez vos séries d'étude. Gagnez de l'XP et montez de niveau en maîtrisant vos matières."
+    }
+  },
+  "testimonials": {
+    "badge": "Témoignages",
+    "title": "Adoré par les étudiants du monde entier",
+    "description": "Rejoignez plus de 5 000 étudiants qui ont amélioré leurs notes avec Exam Master.",
+    "sarah": {
+      "name": "Sarah Chen",
+      "role": "Étudiante en médecine",
+      "quote": "Ma moyenne est passée de 13/20 à 16/20 après avoir utilisé Exam Master. La génération de quiz par IA est incroyable - elle cible exactement les concepts sur lesquels je dois me concentrer. Les séries d'étude me motivent quotidiennement !"
+    },
+    "marcus": {
+      "name": "Marcus Johnson",
+      "role": "Étudiant en ingénierie",
+      "quote": "Je dors mieux depuis que j'ai commencé à utiliser des sessions d'étude structurées avec le minuteur de concentration. J'ai réussi mes partiels avec brio et j'ai vraiment retenu l'information. Un vrai changement !"
+    },
+    "emily": {
+      "name": "Emily Rodriguez",
+      "role": "Étudiante en droit",
+      "quote": "J'ai enfin trouvé une application qui comprend comment les étudiants révisent vraiment. La possibilité de transformer n'importe quel PDF en quiz me fait gagner des heures. La gamification avec l'XP et les niveaux rend les révisions amusantes !"
+    }
+  },
+  "faq": {
+    "badge": "FAQ",
+    "title": "Questions fréquemment posées",
+    "description": "Tout ce que vous devez savoir sur les révisions avec l'IA d'Exam Master.",
+    "q1": {
+      "question": "Quelle est la précision de la génération de quiz par IA ?",
+      "answer": "Notre IA utilise un traitement avancé du langage naturel pour extraire les concepts clés de vos supports d'étude et générer des questions pertinentes. La précision est généralement de plus de 90 % pour les contenus bien structurés comme les manuels et les notes de cours. Vous pouvez toujours réviser et modifier les questions générées pour vous assurer qu'elles correspondent parfaitement à vos besoins d'étude."
+    },
+    "q2": {
+      "question": "Quels formats de fichiers puis-je télécharger pour la génération de quiz ?",
+      "answer": "Exam Master prend en charge les fichiers PDF, les images (JPG, PNG) et les documents texte. Notre IA peut traiter les manuels, les diapositives de cours, les notes manuscrites, les articles de recherche et même les captures d'écran. La version Pro inclut un traitement amélioré pour les mises en page complexes et la reconnaissance de l'écriture manuscrite."
+    },
+    "q3": {
+      "question": "Comment le minuteur de concentration aide-t-il aux révisions ?",
+      "answer": "Le minuteur de concentration comprend trois modes : Pomodoro (25 min de travail, 5 min de pause), Classique (durée personnalisable) et Chronomètre (suivi du temps d'étude). Les recherches montrent que les sessions d'étude chronométrées améliorent la concentration et la rétention. Vos sessions de concentration sont suivies et contribuent à votre XP et vos séries d'étude."
+    },
+    "q4": {
+      "question": "Puis-je partager mes banques de questions avec mes camarades de classe ?",
+      "answer": "Oui ! Les utilisateurs Pro peuvent exporter les banques de questions sous forme de fichiers JSON et les partager avec leurs amis. Les destinataires peuvent importer ces fichiers dans leur propre application Exam Master. Cela rend les sessions d'étude en groupe plus efficaces et aide votre groupe d'étude à collaborer sur la préparation aux examens."
+    },
+    "q5": {
+      "question": "Comment fonctionne le système d'XP et de niveaux ?",
+      "answer": "Vous gagnez des points XP en complétant des quiz, en maintenant des séries d'étude et en utilisant des minuteurs de concentration. Tous les 50 XP, vous montez de niveau et débloquez des succès. Ce système de gamification est conçu pour vous garder motivé et rendre les révisions plus engageantes. Vos progrès sont suivis avec de beaux graphiques et statistiques."
+    },
+    "q6": {
+      "question": "Mes données d'étude sont-elles privées et sécurisées ?",
+      "answer": "Absolument. Tous vos documents téléchargés et questions générées sont stockés de manière sécurisée et cryptée. Nous ne collectons aucune donnée personnelle dans la version gratuite. Vos supports d'étude ne sont jamais partagés avec des tiers, et vous pouvez supprimer votre compte et toutes les données à tout moment. La confidentialité est notre priorité."
+    }
+  },
+  "cta": {
+    "title": "Commencez à maîtriser vos examens dès aujourd'hui",
+    "description": "Rejoignez plus de 5 000 étudiants dans le monde qui ont amélioré leurs notes avec la génération de quiz par IA et des outils d'étude intelligents.",
+    "note": "Téléchargement gratuit avec des fonctionnalités IA premium disponibles"
+  },
+  "footer": {
+    "description": "Application de création de quiz avec génération de quiz par IA. Créez des quiz personnalisés, des cartes mémoire et suivez vos progrès d'étude avec notre générateur de quiz intelligent pour iOS.",
+    "company": "Entreprise",
+    "privacyPolicy": "Politique de confidentialité",
+    "termsOfService": "Conditions d'utilisation",
+    "downloadApp": "Télécharger l'app",
+    "copyright": "Tous droits réservés."
+  },
+  "meta": {
+    "title": "Exam Master : l'IA de révision n°1 - Créez des quiz avec l'IA",
+    "description": "Application de quiz pour créer des quiz interactifs à partir de PDF et d'images. Générateur de quiz IA pour étudiants et enseignants. Créez des quiz personnalisés en quelques secondes avec notre app iOS.",
+    "keywords": "créateur de quiz, application quiz, générateur de quiz, quiz IA, révision, étude IA, cartes mémoire, minuteur concentration, planning révisions, préparation examen, outil évaluation",
+    "ogTitle": "Exam Master : l'IA de révision n°1 - Créez des quiz instantanément",
+    "ogDescription": "Transformez n'importe quel PDF ou image en quiz interactifs avec notre application iOS. Générateur de quiz IA parfait pour les étudiants, enseignants et la préparation aux examens.",
+    "siteName": "Exam Master : l'IA de révision n°1",
+    "imageAlt": "Application Exam Master - Créez des quiz interactifs avec l'IA",
+    "twitterTitle": "Exam Master : l'IA de révision n°1",
+    "twitterDescription": "Application iOS pour créer des quiz interactifs à partir de PDF et d'images. Générateur de quiz IA pour étudiants et enseignants."
+  }
+}
